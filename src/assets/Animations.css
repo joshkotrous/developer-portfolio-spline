@@ -6,8 +6,16 @@
   animation: fadeIn 1s 1s forwards;
 }
 
+.fadeIn-delay-1-5 {
+  animation: fadeIn 1s 1.5s forwards;
+}
+
 .fadeIn-delay-2 {
   animation: fadeIn 1s 2s forwards;
+}
+
+.fadeIn-delay-3 {
+  animation: fadeIn 1s 3s forwards;
 }
 
 @keyframes fadeIn {

@@ -3,7 +3,7 @@ import "../assets/Animations.css";
 
 const HeroBanner = () => {
   return (
-    <div className="heroBanner fadeIn-delay-1">
+    <div className="heroBanner fadeIn-delay-1-5">
       <h1>josh kotrous</h1>
       <h2>developer. designer. creative.</h2>
     </div>
