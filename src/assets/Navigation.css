@@ -29,7 +29,29 @@
   padding-left: 5%;
 }
 
+.navOptions > div:hover {
+  animation: textColorAnim 2s infinite;
+}
+
 .fadeIn {
   opacity: 1;
   transition: opacity 1s;
+}
+
+@keyframes textColorAnim {
+  0% {
+    color: white;
+  }
+  25% {
+    color: #8543ff;
+  }
+  50% {
+    color: #ffb235;
+  }
+  75% {
+    color: #ff00d0;
+  }
+  100% {
+    color: white;
+  }
 }
