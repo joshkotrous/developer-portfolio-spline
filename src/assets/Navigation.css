@@ -4,6 +4,7 @@
   top: 0;
   z-index: 9999;
   opacity: 0;
+  user-select: none;
 }
 
 .navContainer {
@@ -16,6 +17,7 @@
 
 .navContainer > h1 {
   margin: 2% 0%;
+  width: 100%;
 }
 
 .navOptions {
@@ -30,7 +32,7 @@
 }
 
 .navOptions > div:hover {
-  animation: textColorAnim 2s infinite;
+  animation: textColorAnim 3s infinite;
 }
 
 .fadeIn {

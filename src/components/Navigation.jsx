@@ -19,7 +19,7 @@ const Navigation = () => {
   return (
     <div className="nav fadeIn">
       <div className="navContainer">
-        <h1>josh</h1>
+        <h1>{`<jk />`}</h1>
         <div className="navOptions">
           {navOptions.map((item) => {
             return <div key={item.name}>{item.name}</div>;
