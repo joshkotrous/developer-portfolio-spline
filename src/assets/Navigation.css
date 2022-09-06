@@ -36,11 +36,6 @@
   animation: textColorAnim 3s infinite;
 }
 
-.fadeIn {
-  opacity: 1;
-  transition: opacity 1s;
-}
-
 @keyframes textColorAnim {
   0% {
     color: white;

@@ -1,4 +1,5 @@
 import "../assets/Navigation.css";
+import "../assets/Animations.css";
 
 const Navigation = () => {
   const navOptions = [
@@ -19,7 +20,7 @@ const Navigation = () => {
     },
   ];
   return (
-    <div className="nav fadeIn">
+    <div className="nav fadeIn-delay-1">
       <div className="navContainer">
         <h1>{`<jk />`}</h1>
         <div className="navOptions">

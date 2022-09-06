@@ -1,4 +1,20 @@
 .fadeIn {
-  opacity: 1;
-  transition: opacity 1s;
+  animation: fadeIn 1s forwards;
+}
+
+.fadeIn-delay-1 {
+  animation: fadeIn 1s 1s forwards;
+}
+
+.fadeIn-delay-2 {
+  animation: fadeIn 1s 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

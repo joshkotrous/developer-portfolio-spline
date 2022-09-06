@@ -1,5 +1,6 @@
 import Spline from "@splinetool/react-spline";
 import "../assets/Background.css";
+import "../assets/Animations.css";
 
 const Background = () => {
   return (
