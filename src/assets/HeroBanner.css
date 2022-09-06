@@ -1,0 +1,22 @@
+.heroBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  opacity: 0;
+}
+
+.heroBanner > h1 {
+  margin: 0;
+}
+
+.heroBanner > h2 {
+  margin: 2% 0%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 1s;
+}
