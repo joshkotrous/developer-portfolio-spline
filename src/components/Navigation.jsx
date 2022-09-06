@@ -1,10 +1,12 @@
 import "../assets/Navigation.css";
-import "../assets/Animations.css";
 
 const Navigation = () => {
   const navOptions = [
     {
       name: "about",
+    },
+    {
+      name: "theme",
     },
     {
       name: "skills",
